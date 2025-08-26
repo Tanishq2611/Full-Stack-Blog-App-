@@ -4,7 +4,7 @@ import Image from "next/image";
 import Comments from "@/components/comments/Comments";
 
 const getData = async (slug) => {
-  const res = await fetch(`https://full-stack-blog-app-z5rm.vercel.app/api/posts/${slug}`, {
+  const res = await fetch(`https://full-stack-blog-app-wm7d.vercel.app/api/posts/${slug}`, {
     cache: "no-store",
   });
 
